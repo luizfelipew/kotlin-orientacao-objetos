@@ -9,7 +9,7 @@ fun main() {
     println("nome ${luiz.nome}")
     println("cpf ${luiz.cpf}")
     println("salario ${luiz.salario}")
-    println("bonificação ${luiz.bonificacao()}")
+    println("bonificação ${luiz.bonificacao}")
     println("#################################")
 
 
@@ -23,7 +23,7 @@ fun main() {
     println("nome ${fran.nome}")
     println("cpf ${fran.cpf}")
     println("salario ${fran.salario}")
-    println("bonificação ${fran.bonificacao()}")
+    println("bonificação ${fran.bonificacao}")
 
     if (fran.autenticao(1234)) {
         println("autenticou com sucesso")
@@ -45,7 +45,7 @@ fun main() {
     println("nome ${gui.nome}")
     println("cpf ${gui.cpf}")
     println("salario ${gui.salario}")
-    println("bonificação ${gui.bonificacao()}")
+    println("bonificação ${gui.bonificacao}")
     println("plr ${gui.plr}")
 
     if (gui.autenticao(4000)) {
