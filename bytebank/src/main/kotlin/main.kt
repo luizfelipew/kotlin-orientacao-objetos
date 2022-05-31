@@ -35,7 +35,7 @@ fun main() {
 
 
     val gui = Diretor(
-        nome = "Fran",
+        nome = "Gui",
         cpf = "333.333.333-33",
         salario = 4000.0,
         senha = 4000,
@@ -53,4 +53,12 @@ fun main() {
     } else {
         println("falha na autenticação")
     }
+
+    val calculadora = CalculadoraBonificacao()
+    calculadora.registro(luiz)
+    calculadora.registro(fran)
+    calculadora.registro(gui)
+
+    println("total de bonificação: ${calculadora.total}")
+
 }
