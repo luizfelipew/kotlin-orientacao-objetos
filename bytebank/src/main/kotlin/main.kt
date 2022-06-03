@@ -1,9 +1,9 @@
 fun main() {
     println("Bem vindo ao ByteBank")
     val luiz = Funcionario(
-            nome = "Luiz",
-            cpf = "111.111.111-11",
-            salario = 1000.0
+        nome = "Luiz",
+        cpf = "111.111.111-11",
+        salario = 1000.0
     )
 
     println("nome ${luiz.nome}")
@@ -14,10 +14,10 @@ fun main() {
 
 
     val fran = Gerente(
-            nome = "Fran",
-            cpf = "222.222.222-22",
-            salario = 2000.0,
-            senha = 1234
+        nome = "Fran",
+        cpf = "222.222.222-22",
+        salario = 2000.0,
+        senha = 1234
     )
 
     println("nome ${fran.nome}")
@@ -54,10 +54,17 @@ fun main() {
         println("falha na autenticação")
     }
 
+    val maria = Analista(
+        nome = "Maria",
+        cpf = "444.444.444-44",
+        salario = 3000.0
+    )
+
     val calculadora = CalculadoraBonificacao()
     calculadora.registro(luiz)
     calculadora.registro(fran)
     calculadora.registro(gui)
+    calculadora.registro(maria)
 
     println("total de bonificação: ${calculadora.total}")
 

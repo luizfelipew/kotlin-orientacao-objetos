@@ -4,14 +4,7 @@ class CalculadoraBonificacao {
         private set
 
     fun registro(funcionario: Funcionario) {
+        println("Nome ${funcionario.nome} que recebeu a bonificação")
         this.total += funcionario.bonificacao
-    }
-
-    fun registro(gerente: Gerente) {
-        this.total += gerente.bonificacao
-    }
-
-    fun registro(diretor: Diretor) {
-        this.total += diretor.bonificacao
     }
 }
