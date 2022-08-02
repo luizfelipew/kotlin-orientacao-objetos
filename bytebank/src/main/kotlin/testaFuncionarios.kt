@@ -1,5 +1,5 @@
 fun testaFuncionarios() {
-    val luiz = Funcionario(
+    val luiz = Analista(
         nome = "Luiz",
         cpf = "111.111.111-11",
         salario = 1000.0
@@ -10,7 +10,6 @@ fun testaFuncionarios() {
     println("salario ${luiz.salario}")
     println("bonificação ${luiz.bonificacao}")
     println("#################################")
-
 
     val fran = Gerente(
         nome = "Fran",
@@ -31,7 +30,6 @@ fun testaFuncionarios() {
     }
 
     println("#################################")
-
 
     val gui = Diretor(
         nome = "Gui",
