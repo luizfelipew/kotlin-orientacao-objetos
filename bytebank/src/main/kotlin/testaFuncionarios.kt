@@ -23,7 +23,7 @@ fun testaFuncionarios() {
     println("salario ${fran.salario}")
     println("bonificação ${fran.bonificacao}")
 
-    if (fran.autenticao(1234)) {
+    if (fran.autentica(1234)) {
         println("autenticou com sucesso")
     } else {
         println("falha na autenticação")
@@ -45,7 +45,7 @@ fun testaFuncionarios() {
     println("bonificação ${gui.bonificacao}")
     println("plr ${gui.plr}")
 
-    if (gui.autenticao(4000)) {
+    if (gui.autentica(4000)) {
         println("autenticou com sucesso como diretor")
     } else {
         println("falha na autenticação")
