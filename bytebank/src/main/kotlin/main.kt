@@ -1,4 +1,8 @@
 fun main() {
+    testaAutenticacao()
+}
+
+fun testaAutenticacao() {
     val gerente = Gerente(
         nome = "Luiz",
         cpf = "111.111.111-11",
