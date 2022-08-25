@@ -1,4 +1,4 @@
-package coursera
+package main.coursera
 
 fun String.get(index: Int) = '*'
 
